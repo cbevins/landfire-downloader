@@ -6,3 +6,6 @@ export { landfireUnzipDownloadFile } from './downloader/landfireUnzipDownloadFil
 export { landfireReadAuxFile } from './downloader/landfireReadAuxFile.js'
 export { describeGeoTiff } from './downloader/describeGeoTiff.js'
 export { landfireConvertGeoTiffToAscii } from './downloader/landfireConvertGeoTiffToAscii.js'
+
+export { loadGeoTiffRasters } from './readers/loadGeoTiffRasters.js'
+export { LandfireReader } from './readers/LandfireReader.js'
